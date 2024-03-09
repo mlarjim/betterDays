@@ -170,7 +170,7 @@ for(j in date_cols) {
 			# cuando la fecha es solo año
 			if(nchar(fecha)==4) {
 				# no necesita formateo
-				ffecha=fecha
+				ffecha=as.character(fecha)
 			}else{
 				# print("esta se le añade 20:")
 				# print(fecha)
